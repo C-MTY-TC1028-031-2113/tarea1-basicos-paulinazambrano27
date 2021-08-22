@@ -1,7 +1,7 @@
 def main():
     from math import sqrt
    
-    oper1 = float(2 * (3 / 4) + 4 * (2 / 3) - 3 * (1 / 5) + 5 * (1 / 2)
+    oper1 = float(2 * (3 / 4) + 4 * (2 / 3) - 3 * (1 / 5)+ 5 * (1 / 2))
     print(round(oper1, 4))
                   
     oper2 = float(2 * 35 + 4 * 6 ** 3 - 6 * 49)
