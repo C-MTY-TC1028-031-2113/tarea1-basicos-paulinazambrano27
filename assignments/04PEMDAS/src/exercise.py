@@ -19,7 +19,7 @@ def main():
     oper4 = float((2 * (a + b) ** 2 + 4 * (a - b) ** 2) / (a * b ** 2))
     print(round(oper4, 4))
                   
-    oper5 = float(((a + b) ** 2 + 2 ** (a + b)) ** (1/2) / (2 * a + 2 * b) ** 2)
+    oper5 = float(((a + b) ** 2 + 2 ** (a + b)) / (2 * a + 2 * b) ** 2)
     print(round(oper5, 4))              
     pass
     
