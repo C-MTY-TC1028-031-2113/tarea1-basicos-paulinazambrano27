@@ -1,16 +1,15 @@
 def main():
     #escribe tu código abajo de esta línea
 
-    saldo=float(input("Dame el saldo del mes anterior: "))
-    ingresos= float(input("Dame los ingresos: "))
-    egresos=float(input("Dame los egresos: "))
-    cheques=int(input("Dame el número de cheques: "))
+    saldoAnterior = float( input("Dame el saldo del mes anterior: "))
+    ingresos = float( input("Dame los ingresos: "))
+    egresos = float( input("Dame los egresos: "))
+    cheques = int( input("Dame el número de cheques: "))
 
-    saldomensual= (saldo + ingresos - egresos - (13 * cheques))
-    intereses = (saldomensual * 0.075)
-    saldofinal = saldomensual - intereses
+    saldoFinal = (saldoAnterior + ingresos - egresos - cheques * 13) * (1 - 7.5 / 100)
+               
 
-    print ("El saldo final de la cuenta es:",saldofinal)
+    print ("El saldo final de la cuenta es:",saldoFinal)
     
     pass
 
