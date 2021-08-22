@@ -1,12 +1,12 @@
 def main():
     #escribe tu código abajo de esta línea
-    calif1 = float( input("Calificación de la primera materia: ")
-    calif2 = float( input("Calificación de la segunda materia: ")
-    calif3 = float( input("Calificación de la tercera materia: ")
-    calif4 = float( input("Calificación de la cuarta materia: ")
+    calif1 = float( input("Calificación de la materia: ")
+    calif2 = float( input("Calificación de la materia: ")
+    calif3 = float( input("Calificación de la materia: ")
+    calif4 = float( input("Calificación de la materia: ")
                    
     promedio = (calif1 + calif2 + calif3 + calif4) / 4
-                   print("El promedio es:",promedio)
+                   print("El promedio es: " + str(promedio))
     pass
 
 
