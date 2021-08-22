@@ -6,7 +6,7 @@ def main():
     calif4=float(input("Calificación de la materia: "))
                    
     promedio = (calif1 + calif2 + calif3 + calif4) / 4
-                   print("El promedio es:", promedio)
+    print("El promedio es:", promedio)
     pass
 
 
